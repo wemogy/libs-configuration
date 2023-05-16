@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>wemogy GmbH</Authors>
+    <Company>wemogy GmbH</Company>
+    <PackageDescription>.NET Configuration Helpers</PackageDescription>
+    <PackageTags>wemogy,configuration,libs</PackageTags>
+    <RepositoryUrl>https://github.com/wemogy/libs-configuration</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Dapr.Client" Version="1.7.0" />
+    <PackageReference Include="Dapr.Extensions.Configuration" Version="1.7.0" />
+    <PackageReference Include="Polly" Version="7.2.3" />
+  </ItemGroup>
+</Project>
