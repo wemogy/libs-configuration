@@ -33,7 +33,7 @@ namespace Wemogy.Configuration
         /// 4. Environment Variables
         /// </summary>
         /// <returns>Built configuration</returns>
-        public static IConfiguration BuildConfiguration(string environmentName = null)
+        public static IConfiguration BuildConfiguration(string? environmentName = null)
         {
             return new ConfigurationBuilder()
                 .AddDefaultJsonFiles(environmentName)
