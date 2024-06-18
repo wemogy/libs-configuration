@@ -8,21 +8,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemogy.Configuration.Tests", "Wemogy.Configuration.Tests\Wemogy.Configuration.Tests.csproj", "{3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(SolutionProperties) = preSolution
+    HideSolutionNode = FALSE
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {FAD783FC-430C-4D96-A31F-FD05FBCC49F4}.Release|Any CPU.Build.0 = Release|Any CPU
+    {3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {3B0BA01C-13D9-453C-A79E-3D3FEE7903A0}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
 EndGlobal
