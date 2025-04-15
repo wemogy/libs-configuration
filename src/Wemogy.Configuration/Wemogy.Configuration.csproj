@@ -9,6 +9,7 @@
     <Company>wemogy GmbH</Company>
     <PackageDescription>.NET Configuration Helpers</PackageDescription>
     <PackageTags>wemogy,configuration,libs</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/wemogy/libs-configuration</RepositoryUrl>
   </PropertyGroup>
 
