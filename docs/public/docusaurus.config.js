@@ -5,12 +5,14 @@ module.exports = {
   url: 'https://libs-configuration.docs.wemogy.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'wemogy', // Usually your GitHub org/user name.
   projectName: 'libs-configuration', // Usually your repo name.
   markdown: {
-    mermaid: true
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn'
+    }
   },
   themes: [
     '@docusaurus/theme-mermaid',
@@ -19,6 +21,7 @@ module.exports = {
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         hashed: true,
+        indexBlog: false,
         docsRouteBasePath: '/'
       })
     ]
