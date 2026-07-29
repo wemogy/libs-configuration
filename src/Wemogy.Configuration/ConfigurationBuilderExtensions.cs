@@ -55,6 +55,12 @@ namespace Wemogy.Configuration
                 secretStore = configuration["SecretStore"] ?? string.Empty;
             }
 
+            if (string.IsNullOrWhiteSpace(secretStore))
+            {
+                Console.WriteLine("WARNING: No Dapr Secret Store configured (empty 'SecretStore'). Skipping adding Dapr Secret Store...");
+                return builder;
+            }
+
             Console.WriteLine($"Connecting to Dapr Secret Store '{secretStore}'...");
 
             var secretsSection = configuration.GetSection(configurationSection);
