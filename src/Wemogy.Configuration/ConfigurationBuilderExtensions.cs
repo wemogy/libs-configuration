@@ -52,7 +52,7 @@ namespace Wemogy.Configuration
 
             if (string.IsNullOrEmpty(secretStore))
             {
-                secretStore = configuration["SecretStore"];
+                secretStore = configuration["SecretStore"] ?? string.Empty;
             }
 
             Console.WriteLine($"Connecting to Dapr Secret Store '{secretStore}'...");
@@ -70,7 +70,7 @@ namespace Wemogy.Configuration
                 return builder;
             }
 
-            var secrets = secretsSection.Get<string[]>();
+            var secrets = secretsSection.Get<string[]>() ?? Array.Empty<string>();
             foreach (var secret in secrets)
             {
                 Console.WriteLine($"Trying to fetch secret '{secret}' from Dapr Secret Store '{secretStore}'...");
