@@ -27,7 +27,7 @@ public class ConfigurationExtensionsTests
         var configuration = new ConfigurationBuilder()
             .AddInMemoryCollection(new[]
             {
-                new KeyValuePair<string, string>("ExistingKey", "ExistingValue")
+                new KeyValuePair<string, string?>("ExistingKey", "ExistingValue")
             })
             .Build();
 

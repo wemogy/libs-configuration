@@ -12,7 +12,7 @@ public class ConfigurationBuilderExtensionsTests
     [InlineData("", "")]
     [InlineData("Development", "DevelopmentValue")]
     [InlineData("nonExistingEnvironment", "")]
-    public void AddDefaultJsonFiles_IncludesEnvironmentJson(string environment, string testValue)
+    public void AddDefaultJsonFiles_IncludesEnvironmentJson(string? environment, string testValue)
     {
         // Arrange
         var builder = new ConfigurationBuilder();
