@@ -6,4 +6,10 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <CoverletOutput>$(SolutionDir)</CoverletOutput>
+    <CoverletOutputFormat>json,lcov,cobertura</CoverletOutputFormat>
+    <MergeWith>$(SolutionDir)/coverage.json</MergeWith>
+  </PropertyGroup>
 </Project>
